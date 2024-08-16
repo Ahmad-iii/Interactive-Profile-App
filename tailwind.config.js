@@ -1,6 +1,10 @@
 module.exports = {
     theme: {
-        extend: {}
+        extend: {
+            boxShadow:{
+                'inner-lg': 'inset 0 4px 8px rgba(0,0,0,0,0.3)',
+            }
+        }
     },
     plugins:[],
     content: [
